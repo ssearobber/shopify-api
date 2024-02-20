@@ -23,20 +23,4 @@ export class BuymaController {
             throw error;
         }
     }
-    // @Post('overwrite')
-    // createBuyma(@Body() body: ShopifyRequstDto) {
-    //     //FIXME: 임시로 데이터 넣음.
-    //     body.shopifyAccessToken = "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";
-    //     // body.shopifyProductArray = ['8207412789466','8206111768794'];
-    //     // body.shopifyProductArray = ['8210163925210'];
-    //     body.shopifyProductArray = ['8207412789466'];
-    //     body.buymaID = "buymakiki515@gmail.com";
-    //     body.buymaPW = "saltsalt0315";
-        
-    //     if(body.shopifyProductArray.length === 0) return '선택한 상품이 없습니다.';
-
-    //     //TODO: this.buymaService.createBuymaOverwrite(body)에 업무에러가 날 때, 처리하는 return 값
-
-    //     return this.buymaService.createBuymaOverwrite(body);
-    // }
 }
